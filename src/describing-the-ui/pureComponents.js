@@ -95,3 +95,10 @@ function TeaGathering() {
 // theyre safe to cache. since they return the same results every time
 // If some data changes in the middle of rendering a component tree, it can restart rendering without wasting time finishing
 // the original render.
+
+// List of things considered side effects:
+// Updating state, this is why its generally done in an event handler.
+// data fetch requests from an API
+// direct DOM manipulation
+// the use of web browser api features such as the timeer
+// Anything else that effects something outside the scope of the component function
