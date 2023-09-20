@@ -6,6 +6,7 @@ import Toolbar from './adding-interactivity/respondingToEvents';
 import QueueMultiple from './adding-interactivity/queueingASeriesOfStateUpdates';
 import Form from './managing-state/reactingToInputWithState';
 import FormApp from './managing-state/reactingToInputWithState';
+import Accordion from './managing-state/sharingStateBetweenComponents';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,6 +16,7 @@ root.render(
     {/* <Toolbar/> */}
     {/* <QueueMultiple/> */}
     {/* <Form/> */}
-    <FormApp/>
+    {/* <FormApp/> */}
+    <Accordion/>
   </React.StrictMode>
 );
